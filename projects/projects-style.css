@@ -1,0 +1,39 @@
+.heading{
+    padding: 2rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 2.5rem;
+}
+
+.cards{
+    padding: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    
+}
+.title{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    padding: 5rem;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+}
+.links{
+    padding-top: 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
